@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="box">
+        <nav>
+          <a href="#about">About Me</a> |
+          <a href="#projects">Projects</a> |
+          <a href="#skills"> Skills</a> |
+          <a href="#contact"> Contact</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  //start of main content
+  <main>
+    <section id="Hero">
+      <div class="container">
+        <h1>Daniel Dante</h1>
+      <p> Full Stack Developer</p>
+      <p>
+        Creating beautiful, functional and user friendly interfaces and experience.
+      </p>
+      <div>
+        <a href="#contact"> Contact me</a>
+        <a href="#projects"> View Works</a>
+      </div>
+      </div>
+    </section>
+
+//about section//
+
+<section id="#about">
+  <div class="container">
+    <h2> About Me </h2>
+    <div class="about-card">
+      <p>
+        I'm a bringer and solver of problems with a unique background. 
+        My degree in Zoology & Environmental Biology trained me to analyze complex problems and identify patterns. 
+        Which I now apply to writing clean, efficient code. 
+        I've successfully transitioned from scientific analysis to software development, bringing a meticulous, 
+        detail-oriented approach to building digital problems and solutions.
+        I'm passionate about leveraging technology to create intuitive applications and am eager to contribute to a forward-thinking engineering team.
+      </p>
+    </div>
+  </div>
+</section>
+
+//Skills
+<section id="#skills">
+  <div class="container">
+    <h2>Skills & Expertise </h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <div  class="icon">picture here</div>
+          <h3>Frontend Development</h3>
+          <div class="tags">
+            <span class="tag">React</span>
+            <span class="tag">HTML</span>
+            <spanclass="tag">CSS</span>
+          </div>
+        </div>
+        <div class="skill-card">
+        <div class="icon"> picture here</div>
+          <h3>Design</h3>
+          <div class="tags">
+            <span class="tag">UI/UX</span>
+            <span class="tag">Prototyping</span>
+            <span class="tag">Figma</span>
+            <span class="tag">Responsive Design</span>
+          </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+//projects
+<section id="projects">
+  <div class="container">
+    <h2>Featured Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <div class="image"></div>
+        <div class="content">
+          <h3>E-Commerce Platform</h3>
+          <p>A full-stack e-commerce solution with payment integration and inventory</p>
+          <div class="tags">
+            <span class="tag">HTML/CSS</span>
+            <span class="tag">React</span>
+            <span class="tag">Node.js</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</body>
+</html>
