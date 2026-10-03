@@ -200,12 +200,7 @@ a { text-decoration: none; color: inherit; }
   display: flex;
   justify-content: center;
   align-items: center;
-  cursor: pointer;
   border-radius: 50%;
-}
-.hero-photo:focus-visible {
-  outline: 3px solid var(--primary);
-  outline-offset: 4px;
 }
 
 .hero-photo img {
